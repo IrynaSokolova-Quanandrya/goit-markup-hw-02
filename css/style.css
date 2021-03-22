@@ -1,5 +1,12 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+}
+
 body {
-  color: #757575;
+  color: var(--primary-text-color);
   background-color: #ffffff;
 }
 /*шапка сайта*/
@@ -12,7 +19,7 @@ ul {
 }
 
 span {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .site-nav-list .link {
@@ -20,18 +27,51 @@ span {
 }
 .site-nav-list .link:hover,
 .site-nav-list .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .contacts-nav a {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .contacts-nav a:focus,
 .contacts-nav a:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
-/* secondary color #212121*/
-/*main color #757575*/
-/*accent color background: #2196F3*/
-/* #ffffff*/ ;
+.section-title {
+  color: var(--title-text-color);
+}
+
+.fetures .title {
+  color: var(--title-text-color);
+}
+.title {
+  color: var(--title-text-color);
+}
+/*блок герой*/
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--background-color);
+}
+.hero-button {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
+
+/*Footer*/
+.footer {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: #ffffff;
+}
+.footer-contacts-list-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts-list-link:hover,
+.footer-contacts-list-link:focus {
+  color: var(--accent-color);
+}
