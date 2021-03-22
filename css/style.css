@@ -1,0 +1,37 @@
+body {
+  color: #757575;
+  background-color: #ffffff;
+}
+/*шапка сайта*/
+ul {
+  list-style: none;
+}
+
+.logo {
+  color: #000000;
+}
+
+span {
+  color: #2196f3;
+}
+
+.site-nav-list .link {
+  color: #000000;
+}
+.site-nav-list .link:hover,
+.site-nav-list .link:focus {
+  color: #2196f3;
+}
+
+.contacts-nav a {
+  color: #757575;
+}
+.contacts-nav a:focus,
+.contacts-nav a:hover {
+  color: #2196f3;
+}
+
+/* secondary color #212121*/
+/*main color #757575*/
+/*accent color background: #2196F3*/
+/* #ffffff*/ ;
