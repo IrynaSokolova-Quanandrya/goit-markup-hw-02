@@ -60,7 +60,7 @@ span {
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .contacts-nav a:focus,
@@ -74,7 +74,7 @@ span {
 
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 2;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -85,7 +85,7 @@ span {
 
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.03em;
 }
 
@@ -131,7 +131,7 @@ span {
 
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 4;
+  line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
 }
