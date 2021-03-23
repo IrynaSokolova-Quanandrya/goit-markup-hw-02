@@ -8,14 +8,20 @@
 body {
   color: var(--primary-text-color);
   background-color: #ffffff;
+  font-family: roboto, sans-serif;
 }
 /*шапка сайта*/
 ul {
   list-style: none;
 }
-
+/*logo*/
 .logo {
   color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 span {
@@ -24,9 +30,17 @@ span {
 
 .site-nav-list .link-current {
   color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav-list .link {
   color: #000000;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav-list .link:hover,
 .site-nav-list .link:focus {
@@ -57,10 +71,19 @@ span {
 }
 .hero-title {
   color: var(--background-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 4;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .hero-button {
   color: var(--background-color);
   background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 /*Footer*/
@@ -77,4 +100,15 @@ span {
 .footer-contacts-list-link:hover,
 .footer-contacts-list-link:focus {
   color: var(--accent-color);
+}
+/*Portfolio*/
+
+.filter-button {
+  color: var(--title-text-color);
+  font-family: inherit;
+}
+.filter-button :hover,
+.filter-button :focus {
+  color: var(--background-color);
+  background-color: var(--accent-color);
 }
