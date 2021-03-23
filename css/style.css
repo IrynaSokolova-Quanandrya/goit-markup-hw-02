@@ -92,7 +92,6 @@ span {
 .feture .text {
   color: var(--primary-text-color);
 
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -116,7 +115,6 @@ span {
 .team .position {
   color: var(--primary-text-color);
 
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -139,6 +137,9 @@ span {
   color: var(--background-color);
 
   background-color: var(--accent-color);
+
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 2;
@@ -176,14 +177,39 @@ span {
   color: var(--accent-color);
 }
 
-/*portfolio*/
+/*PORTFOLIO*/
+
+/*filters*/
 
 .filter-button {
   color: var(--title-text-color);
   font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
-.filter-button :hover,
-.filter-button :focus {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--background-color);
   background-color: var(--accent-color);
+}
+
+/*примеры работ*/
+
+.examples-titel {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.examples-type {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
 }
